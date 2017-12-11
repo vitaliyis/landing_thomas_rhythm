@@ -148,6 +148,10 @@ textarea{
 	height: 27px;
 	line-height: 27px;
 }
+.rhomb-icon.small-icon{
+	width: 19px;
+	height: 19px;
+}
 /* ========= RHOMB ICON END */
 /* =========== TITLE ============ */
 .title{
@@ -308,6 +312,7 @@ textarea.form-control{
 .inner{
 	height: 100vh;
 	background: url("../img/inner-bg.jpg") no-repeat center/cover;
+	position: relative;
 }
 .inner::before{
 	content: '';
@@ -332,6 +337,17 @@ textarea.form-control{
 .inner-content span{
 	font-size: 19px;
 	color: rgba(254, 254, 254, .68);
+}
+.inner .rhomb-icon > *{
+	transform: translateY(3%) translateX(25%) rotate(-45deg);
+}
+.inner .rhomb-icon{
+	margin-left: -9px;
+}
+.inner .goto{
+	position: absolute;
+	bottom: 36px;
+	left: 50%;
 }
 
 @media (max-width:1199px){
