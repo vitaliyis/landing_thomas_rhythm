@@ -825,7 +825,10 @@ textarea.form-control{
 @media (max-width: 559px){
 	.latest-news .title{
 		overflow: hidden;
-		margin-bottom: 25px;
+		margin-bottom: 25px;		
+	}
+	.latest-news .title span{
+		display: block;
 	}
 	.latest-news .title a{
 		margin-top: 20px;
